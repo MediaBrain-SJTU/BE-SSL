@@ -17,5 +17,5 @@ Code will be made available soon.
 ### Visualization
 
 ### Acknowledgement
-We borrow codes from nnU-Net(https://github.com/MIC-DKFZ/nnUNet).
+We borrow codes from [nnU-Net](https://github.com/MIC-DKFZ/nnUNet).
 
