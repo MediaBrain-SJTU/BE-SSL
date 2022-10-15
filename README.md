@@ -12,6 +12,13 @@ Code will be made available soon.
 ### Environment
 
 ### Files Preparation
+Download CANDI dataset (Img+Seg+Reg_V1.2) from [candi_share](https://www.nitrc.org/projects/candi_share). The target dataset should be formulated as:
+> |---nnunet
+> |---data
+> |   |---candi
+> |       |---raw_data
+> |---README.md
+
 
 ### Quick Start
 
