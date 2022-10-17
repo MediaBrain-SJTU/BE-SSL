@@ -13,12 +13,18 @@ Code will be made available soon.
 
 ### Files Preparation
 Download CANDI dataset (Img+Seg+Reg_V1.2) from [candi_share](https://www.nitrc.org/projects/candi_share). The target dataset should be formulated as:
-> |---nnunet
-> |---data
-> |   |---candi
-> |       |---raw_data
-> |---README.md
 
+```
+|---nnunet 
+|---data 
+|   |---candi 
+|       |---raw_data
+|           |---SchizBull_2008_BPDwoPsy_segimgreg_V1.2.tar
+|           |---SchizBull_2008_BPDwPsy_segimgreg_V1.2.tar
+|           |---SchizBull_2008_HC_segimgreg_V1.2.tar
+|           |---SchizBull_2008_SS_segimgreg_V1.2.tar
+|---README.md
+```
 
 ### Quick Start
 
@@ -30,4 +36,5 @@ Download CANDI dataset (Img+Seg+Reg_V1.2) from [candi_share](https://www.nitrc.o
 
 ### Acknowledgement
 We borrow codes from [nnU-Net](https://github.com/MIC-DKFZ/nnUNet).
+
 
