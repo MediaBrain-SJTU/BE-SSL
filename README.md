@@ -29,7 +29,7 @@ Download CANDI dataset (Img+Seg+Reg_V1.2) from [candi_share](https://www.nitrc.o
 ### Quick Start
 
 #### file preparation
-> python scripts/candi_unpack.py
+> python scripts/candi_unpack.py \
 > python scripts/candi_cropped.py
 
 

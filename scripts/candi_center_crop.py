@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# @author      : changfeng3168
+# @time        : 22/10/20 17:00:40
+# @description : center crop region of interest  for the candi data
+# @reference   : 
+
 import SimpleITK as sitk
 import numpy as np
 import os
