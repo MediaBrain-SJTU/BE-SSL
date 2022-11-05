@@ -54,7 +54,10 @@ supervoxel generation:
 > python scripts/supervoxel_gen.py
 
 ### Training
-
+BE-SSL preTrain:
+> nnUNet_train 3d_fullres Candi_preTrain {task-id} {fold}
+BE-SSL finetune:
+> nnUnet_train 3d_fullres Candi_finetune {task-id} {fold}
 
 ### Results
 
