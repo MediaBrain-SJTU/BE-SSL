@@ -60,11 +60,11 @@ BE-SSL finetune:
 > nnUnet_train 3d_fullres Candi_finetune {task-id} {fold}
 
 ### Results
-<img src=https://user-images.githubusercontent.com/24731236/200122862-3501aedc-03f8-4dee-816e-461632fe6859.png width="500px"/>
+<img src=https://user-images.githubusercontent.com/24731236/200122862-3501aedc-03f8-4dee-816e-461632fe6859.png width="600px"/>
 
 
 ### Visualization
-![image](https://user-images.githubusercontent.com/24731236/200122853-3b4bf124-e0a8-41c5-bb5e-46c65fd41f53.png)
+<img src=https://user-images.githubusercontent.com/24731236/200122853-3b4bf124-e0a8-41c5-bb5e-46c65fd41f53.png width="800px"/>
 
 
 ### Acknowledgement
