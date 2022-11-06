@@ -7,7 +7,7 @@ import torch
 from nnunet.network_architecture.basic_unet import unet
 
 class preTrain_Candi_vox(CandiBaseTrainer):
-    def __init__(self, plans_file, fold, output_folder=None, dataset_directory=None, batch_dice=True, stage=None, unpack_data=True, deterministic=True, fp16=False,ratio=1.0):
+    def __init__(self, plans_file, fold, output_folder=None, dataset_directory=None, batch_dice=True, stage=None, unpack_data=True, deterministic=True, fp16=False, ratio=0.1):
         super().__init__(plans_file, fold, output_folder=output_folder, dataset_directory=dataset_directory, batch_dice=batch_dice, stage=stage, unpack_data=unpack_data, deterministic=deterministic, fp16=fp16)
         
         self.ratio = ratio
@@ -15,7 +15,7 @@ class preTrain_Candi_vox(CandiBaseTrainer):
         self.output_folder = self.output_folder.replace('/fold', '/ratio_{}/fold'.format(str(self.ratio)))
         self.output_folder_base = self.output_folder
 
-        self.pretrain_path = './nnunet/data/nnUNet_trained_models/nnUNet/'
+        self.pretrain_path = './nnunet/data/nnUNet_trained_models/nnUNet//3d_fullres/Task160_CandiBrainSegmentation/Candi_preTrain__nnUNetPlansv2.1/fold_0/model_final_checkpoint.model'
 
     def initialize_network(self):
         """
