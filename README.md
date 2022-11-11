@@ -12,7 +12,7 @@ Code will be made available soon.
 ### Environment
 
 > cd nnunet \
-> pip install -e .
+> pip install -e . \
 > pip install edt
 
 
